@@ -1,0 +1,6 @@
+<service>
+    <parameter name="ServiceClass" locked="false">service.impl.OrderService</parameter>
+    <operation name="buyProduct">
+        <messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+    </operation>
+</service>
